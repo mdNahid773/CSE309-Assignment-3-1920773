@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.wrapper {
+    display: inline-flex;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 480px;
+    
+}
+
+.container-1 img{
+    width: 480px ;
+    height: auto;
+    position: relative;
+}
+
+.content {
+    top: 0;
+    position: absolute;
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: 350px;
+}
+
+.label-1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-top: 8px;
+    margin-bottom: 35px;
+    color: white;
+}
+
+span {
+    color: green;
+}
+
+h3 {
+    font-size: 30px;
+    color: #262626;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-box {
+    margin: 25px 55px;
+}
+
+.container-2 label {
+    display: flex;
+    font-weight: bold;
+}
+
+.label-box {
+    width: 435px;
+    padding: 10px 30px;
+    border: 1px solid #b1b1b1;
+}
+
+input, textarea {
+    width: 435px;
+    padding: 10px 30px;
+}
+
+.name {
+    width: 215px;
+}
+
+.input-field {
+    margin-bottom: 20px;
+}
+
+#button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: rgb(2, 109, 2);
+}
